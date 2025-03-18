@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "functions": {
-    "api/speedtest.py": {
-      "runtime": "python3"
+  "builds": [
+    {
+      "src": "api/speedtest.py",
+      "use": "@vercel/python"
     }
-  },
+  ],
   "routes": [
     {
       "src": "/api/speedtest",
