@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "functions": {
+    "api/speedtest.py": {
+      "runtime": "python3"
+    }
+  },
+  "routes": [
+    {
+      "src": "/api/speedtest",
+      "dest": "/api/speedtest.py"
+    }
+  ]
+}
